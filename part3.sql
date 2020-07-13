@@ -1,0 +1,1 @@
+Select count(*) as '# Orders',status as 'Order Status' from orders group by status ORDER BY status

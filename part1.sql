@@ -1,0 +1,1 @@
+SELECT customerName, CONCAT(e.lastName, ',', e.firstName) as 'Sales Rep' from customers c LEFT join employees e ON c.salesRepEmployeeNumber=e.employeeNumber ORDER BY customerName
